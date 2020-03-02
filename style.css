@@ -1,54 +1,85 @@
-
-
 * {
   box-sizing: border-box;
+  max-width: 100%;
 }
 
 
+html body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: auto;
+}
+
+
+
+
+
+
 body {
-  height: 100%;
+ 
   background-color: blueviolet;
   background-image: url("../../Assignments/Marketing-Page/images/plain.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+ 
 }
 
-h2{
-    font-size: 2rem; 
+h2 {
+  font-size: 2rem;
+  font-family: "Lobster";
+  color: black;
 }
+
 
 
 nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 40%;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  margin: 0 10px 20px;
+  width: 50%;
+  height: 30px;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  color: white;
+  border: 1px solid white;
+  font-family:"Maven Pro" ;
+}
+
+h1{
+    font-family:"Maven Pro" ;
+}
+
+
+p{
+    font-family:"Maven Pro" ;
+}
+
+.container-one{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between; 
-}
-
-.links{
-    display:flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-    width:40%;
-
-    
-}
-
-
-a{
-    text-decoration: none;
-    color: white;
-}
-
-.btn{
-    display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: grey;
-    margin: 0 10px 20px;
-    width: 50%;
-    height: 30px;
-    font-size: 1.3rem;
-    border-radius: 10px;
-    color: white;
+    height:90%;
 }
