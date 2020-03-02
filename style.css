@@ -1,0 +1,54 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  height: 100%;
+  background-color: blueviolet;
+  background-image: url("../../Assignments/Marketing-Page/images/plain.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h2{
+    font-size: 2rem; 
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.links{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width:40%;
+
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    margin: 0 10px 20px;
+    width: 50%;
+    height: 30px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    color: white;
+}
