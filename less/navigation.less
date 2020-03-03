@@ -1,0 +1,52 @@
+// Navigation Styles here
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:800px;
+    margin:0 auto;
+    background-color: black;
+
+    @media(max-width:500px){
+       .centered();
+         
+    }
+
+    h1{
+        padding-top: 5%;
+       @media @mobile{
+        padding-top:3%;
+       padding-bottom:5%;
+
+       } 
+    }
+
+
+
+    nav{
+        display:flex;
+        justify-content:space-between;
+        width:400px;
+        padding-top: 3%;
+      
+    //     @media(max-width:500px){
+    //      display:flex;
+    //      justify-content: space-around;
+    //    }
+
+        a{
+            
+            .custom(black, 300px, rgb(255, 255, 255));
+   
+            @media @mobile{
+              .centered();
+               width:100%;
+            }
+            text-decoration: none;
+            color:rgb(245, 238, 238);
+            font-size: 1.6rem;
+        }
+    }
+    
+}
