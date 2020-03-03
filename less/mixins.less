@@ -1,0 +1,30 @@
+.custom(@bg-color, @width, @font-color){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: @bg-color;
+    margin: 0 10px 20px;
+    width: @width;
+    height: 45px;
+    font-size: 2rem;
+    border-radius: 10px;
+    color: @font-color;
+  
+    &:hover {
+      background-color: #21b8a4;
+    }
+  }
+  
+  
+  .btn{
+      .custom(#04545a, 200px, white);
+     
+      @media @mobile{
+        .centered();
+         width:100%;
+      }
+  }
+  
+  /*---- Escaping starts here---*/
+  
+  @mobile:~"(max-width:500px)";
