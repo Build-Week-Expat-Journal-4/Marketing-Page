@@ -171,7 +171,6 @@ html {
 html,
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: black;
 }
 h1,
 h2,
@@ -213,7 +212,6 @@ header {
   align-items: center;
   width: 800px;
   margin: 0 auto;
-  background-color: black;
 }
 @media (max-width: 500px) {
   header {
@@ -273,12 +271,6 @@ header nav a:hover {
   color: white;
   font-size: 1.6rem;
   padding: 20px;
-}
-.home {
-  background-color: black;
-}
-.home .top {
-  background-color: black;
 }
 .home .top .funbus-pic {
   margin: 20px 0;
@@ -432,10 +424,16 @@ header nav a:hover {
   padding-top: 2%;
 }
 /*--About page STARTS here---*/
+body {
+  background: url(/Marketing-Page/images/ricardo-gomez-angel-GsZLXA4JPcM-unsplash.jpg);
+}
+.bodyAbout {
+  background-image: url(/Marketing-Page/images/ricardo-gomez-angel-GsZLXA4JPcM-unsplash.jpg);
+}
 .top-about {
   margin: 5%;
-  border: 1px dashed orange;
   padding: 2%;
+  border-radius: 10%;
 }
 .top-about h2 {
   display: flex;
