@@ -1,95 +1,87 @@
 .home {
+  .top {
+      width: 100px;
+    border-bottom: 2px dashed lightgrey;
+    background-image: url("/images/kombi.jpg");
+       img{
+        max-width: 100%;
+        height: auto;
+     
+  }
 
-    .top{
-      border-bottom: 2px dashed lightgrey;
-    
-      .funbus-pic{
-        margin:20px 0;
+  .content-section {
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .text-content {
+      width: 48%;
+      padding-right: 1%;
+
+      @media (max-width: 500px) {
+        width: 100%;
       }
     }
-    
-      .content-section {
-        margin: 30px 0;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    
-        
-       
-        
-        .text-content {
-          width: 48%;
-          padding-right: 1%;
-    
-          @media(max-width:500px){
-            width:100%;
-          }
-        }
-    
-        .img-content {
-          width: 48%;
-          padding-left: 1%;
-          @media(max-width:500px){
-            width:100%;
-            margin-bottom:5%;
-          }
-    
-          img {
-            border-radius: 10px;
-          }
-        }
+
+    .img-content {
+      width: 48%;
+      padding-left: 1%;
+      @media (max-width: 500px) {
+        width: 100%;
+        margin-bottom: 5%;
       }
-    
-      .inverse-content {
-        padding-bottom: 30px;
-        border-bottom: 2px dashed @navigation-border;
-    
-        .text-content {
-          padding-left: 1%;
-          padding-right: 0;
-          
-        }
-    
-        .img-content {
-          padding-right: 1%;
-          padding-left: 0;
-        }
+
+      img {
+        border-radius: 10px;
       }
-    
-      .content-destination {
-        width: 75%;
-        margin: 0 auto 30px;
-          @media(max-width:500px){
-            .centered();
-            width:100%;
-          }
-        }
-    
-        img {
-          border-radius: 10px;
-        }
-      }
-    
-      .content-pick {
-        padding-top: 30px;
-        border-top: 2px dashed @navigation-border;
-        display: flex;
-        justify-content: space-between;
-    
-        @media(max-width:500px){
-          .centered();
-         
-        }
-    
-        .destination {
-          width: 30%;
-          margin-bottom: 30px;
-          @media(max-width:500px){
-            width:100%;
-          }
-       }
-      }
-    
-    
-      
-    
+    }
+  }
+
+  .inverse-content {
+    padding-bottom: 30px;
+    border-bottom: 2px dashed @navigation-border;
+
+    .text-content {
+      padding-left: 1%;
+      padding-right: 0;
+    }
+
+    .img-content {
+      padding-right: 1%;
+      padding-left: 0;
+    }
+  }
+
+  .content-destination {
+    width: 75%;
+    margin: 0 auto 30px;
+    @media (max-width: 500px) {
+      .centered();
+      width: 100%;
+    }
+  }
+
+  img {
+    border-radius: 10px;
+  }
+}
+
+.content-pick {
+  padding-top: 30px;
+  border-top: 2px dashed @navigation-border;
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 500px) {
+    .centered();
+  }
+
+  .destination {
+    width: 30%;
+    margin-bottom: 30px;
+    @media (max-width: 500px) {
+      width: 100%;
+    }
+  }
+}
