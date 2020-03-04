@@ -1,25 +1,17 @@
 
 
 .home {
-
-
+p{
+  text-align: center;
+}
 .top{
 
   .video-mp4{
     position:fixed;
     z-index:-1;
-    border-radius: 10%;
+   
   }
 
-
-
-  .funbus-pic{
-    margin:20px 0;
-    border-radius:10%;
-     @media(max-width:500px){
-        width:100%;
-      }
-  }
 }
 
   .content-section {
@@ -196,25 +188,17 @@
       }
    }
   }
+}// home
 
-
-  
-
-
-
-
-// home
-
-
-}
-
-
-/*--About page STARTS here---*/
 
 body{
   background: url(/images/ricardo-gomez-angel-GsZLXA4JPcM-unsplash.jpg);
 
 }
+  
+
+
+/*--About page STARTS here---*/
 
 
 .bodyAbout{
@@ -222,13 +206,18 @@ body{
 
 }
 
-
+h3{
+  font-size:2.5rem;
+  @media @mobile{
+    font-size:1.5rem;
+  }
+}
 
 .top-about{
  margin:5%;
-//  border:1px dashed orange;
  padding:2%;
  border-radius: 10%;
+
  
 
  
@@ -236,15 +225,46 @@ body{
    display:flex;
  justify-content: center;
  } 
+//  @media @mobile{
+//    font-size:2rem;
+//  }
 }
 
 .container-about{
   margin:5%;
   
+  p{
+    display:flex;
+    align-content: center;
+    text-align: center;
+    font-size:2rem;
+
+    @media @mobile{
+      font-size: 1.5rem;
+    }
+  }
   
+h4{
+
+  padding-bottom: 5%;
+  display:flex;
+  justify-content: center;
+  font-size:4rem;
+  @media @mobile{
+    font-size:3rem;
+  }
+}
+
+
+
+
   h2{
     display:flex;
-  justify-content: center;
+    justify-content: center;
+
+    @media @mobile{
+      font-size: 1.5rem;
+    }
   } 
  }
 
