@@ -272,6 +272,11 @@ header nav a:hover {
   font-size: 1.6rem;
   padding: 20px;
 }
+.home .top .video-mp4 {
+  position: fixed;
+  z-index: -1;
+  border-radius: 10%;
+}
 .home .top .funbus-pic {
   margin: 20px 0;
   border-radius: 10%;
